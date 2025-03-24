@@ -44,8 +44,12 @@ function computarContagemRegressiva() {
   const tempoAtual = useCronometroStore.getState().tempoEmSegundos;
 
   if (tempoAtual > 0) {
-    console.log("diminuir tempo");
+    decrementarTempo();
   } else {
     console.log("pausar e redefinir tempo");
   }
+}
+
+function decrementarTempo() {
+  useCronometroStore.setState((estado) => ({ tempoEmSegundos: estado.tempoEmSegundos - 1 }));
 }
