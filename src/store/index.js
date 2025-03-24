@@ -19,6 +19,14 @@ export const MODO_CRONOMETRO = {
   },
 };
 
-// export const useCronometroStore = create((set) => ({
+export const useCronometroStore = create((set) => ({
+  modoCronometro: MODO_CRONOMETRO.FOCO,
+  tempoEmSegundos: MODO_CRONOMETRO.FOCO.tempoInicialEmSegundos,
 
-// }));
+  setModoCronometro: (novoModo) => {
+    set({
+      modoCronometro: novoModo,
+      tempoEmSegundos: novoModo.tempoInicialEmSegundos,
+    });
+  },
+}));
