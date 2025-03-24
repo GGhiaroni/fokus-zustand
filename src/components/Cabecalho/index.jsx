@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
-import logoImg from "/src/assets/imgs/logo.png";
 import focoImg from "/src/assets/imgs/foco.png";
+import logoImg from "/src/assets/imgs/logo.png";
 
 export default function Cabecalho() {
   const modoCronometro = {
