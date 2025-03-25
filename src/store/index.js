@@ -8,19 +8,19 @@ export const MODO_CRONOMETRO = {
     id: "foco",
     nome: "Foco",
     frase: ["Otimize sua produtividade", "mergulhe no que importa."],
-    tempoInicialEmSegundos: 30,
+    tempoInicialEmSegundos: 1800,
   },
   DESCANSO_CURTO: {
     id: "descanso-curto",
     nome: "Descanso curto",
     frase: ["Que tal dar uma respirada?", "Faça uma pausa curta."],
-    tempoInicialEmSegundos: 5,
+    tempoInicialEmSegundos: 300,
   },
   DESCANSO_LONGO: {
     id: "descanso-longo",
     nome: "Descanso longo",
     frase: ["Hora de volta à superfície.", "Faça uma pausa longa."],
-    tempoInicialEmSegundos: 15,
+    tempoInicialEmSegundos: 900,
   },
 };
 
