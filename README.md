@@ -10,7 +10,7 @@ Esse projeto foi reescrito e otimizado utilizando a biblioteca de gerenciamento 
 
 ## 🌐 Acesse o projeto completo em:
 
-[🔗 Fokus - Pomodoro Timer](https://projeto-pomodoro-fokus.vercel.app/)
+[🔗 Fokus - Pomodoro Timer](https://fokus-zustand.vercel.app/)
 
 ---
 
@@ -94,5 +94,5 @@ A aplicação implementa um sistema **CRUD (Create, Read, Update, Delete)** para
 
 ## 🌐 Acesse o Projeto
 
-🔗 [**Fokus - Pomodoro Timer**](https://projeto-pomodoro-fokus.vercel.app/)
+🔗 [**Fokus - Pomodoro Timer**](https://fokus-zustand.vercel.app/)
 
